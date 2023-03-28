@@ -1,0 +1,353 @@
+body {
+    background: #0C0B08;
+}
+
+.hero {
+    width: 1500px;
+    margin-left: 10%;
+    margin-top: 50px;
+}
+
+.hashtag {
+    padding-top: 20%;
+}
+
+.hashtag p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 175%;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    transform: rotate(-90deg);
+    padding-top: 20px;
+}
+
+.chase {
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    color: #FFFFFF;
+}
+
+.text-input {
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    background: #DCCA87;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 32px;
+    padding-left: 32px;
+}
+
+.text-input:hover {
+    letter-spacing: 0.04em;
+    background: #D3BC66;
+    transition: 0.4s;
+    padding-right: 32px;
+    padding-left: 32px;
+}
+
+.sit {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #AAAAAA;
+    width: 450px;
+}
+
+.key {
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 90px;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    color: #DCCA87;
+    width: 500px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    justify-content: space-between;
+}
+
+.content-text {
+    margin-top: 3%;
+}
+
+.num-1 {
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #F5EFDB;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.fon {
+    background-image: url(../img/fon-block2.png);
+    width: 100%;
+}
+
+.naz {
+    font-family: 'Cormorant Upright';
+    font-size: 64px;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #DCCA87;
+}
+
+.content-2 {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    justify-content: space-between;
+}
+
+.var {
+    padding-top: 10%;
+    width: 1100px;
+    padding-left: 22%;
+}
+
+.about {
+    text-align: right;
+    padding-top: 150px;
+    padding-right: 70px;
+}
+
+.knife {
+    padding-bottom: 50px;
+}
+
+.our {
+    padding-top: 150px;
+    padding-left: 70px;
+}
+
+.fon-book {
+    background-image: url(../img/wave\ element.svg);
+    width: 100%;
+    height: auto;
+}
+
+.fon-form {
+    height: auto;
+    width: auto;
+    padding: 50px;
+    background-color: #0C0C0C;
+    border: 1px solid rgba(220, 202, 135, 0.2);
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.Reserv {
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-size: 23px;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.Book {
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-size: 64px;
+    text-align: center;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #DCCA87;
+}
+
+#style {
+    background-color: #0C0C0C;
+    color: #FFFFFF;
+}
+
+#style:hover {
+    background-color: #292727;
+    color: #FFFFFF;
+}
+
+.style-block {
+    border: 1px solid #F5EFDB;
+    background-color: #0C0C0C;
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #AAAAAA;
+}
+
+.style-btn {
+    border: solid #F5EFDB;
+    border-radius: 0px;
+    background-color: #0C0C0C;
+    width: 300px;
+}
+
+.my-bat {
+    background: #DCCA87;
+    border: 1px solid #DCCA87;
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-size: 16px;
+    color: #0C0C0C;
+    margin-top: 50px;
+    width: 10vw;
+}
+
+.align-btn {
+    align-items: center;
+    text-align: center;
+}
+
+.block-4 {
+    background-image: url(../img/Group\ 90.jpg);
+    height: auto;
+    padding-top: 250px;
+    padding-bottom: 250px;
+}
+
+.menu-nav-me {
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    color: #FFFFFF;
+}
+
+.menu-nav-me:hover {
+    color: #aba9a9;
+}
+
+
+/* блок 5 */
+
+.block-5 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.head-text {
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-size: 45px;
+    text-align: center;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #FFFFFF;
+}
+
+.mememe {
+    margin-top: 50px;
+}
+
+.name-priduct {
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-size: 22px;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #DCCA87;
+}
+
+.podname {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-size: 16px;
+    color: #AAAAAA;
+    padding-bottom: 23px;
+}
+
+.nane-ms {
+    padding-top: 20px;
+}
+
+.price {
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-size: 23px;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #FFFFFF;
+}
+
+.ras {
+    padding-right: 15px;
+}
+
+.block-6 {
+    background-image: url(../img/BG.png);
+    width: 100%;
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+
+.Chef {
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-size: 23px;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #FFFFFF;
+    padding-top: 70px;
+}
+
+.What {
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-size: 64px;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #DCCA87;
+}
+
+.Lorem {
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    color: #AAAAAA;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.Kevin {
+    font-family: 'Cormorant Upright';
+    font-style: normal;
+    font-size: 32px;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: #DCCA87;
+}
+
+.Founder {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-size: 16px;
+    color: #AAAAAA;
+    padding-bottom: 50px;
+}
+
+.left-block-6 {
+    padding-left: 40px;
+}

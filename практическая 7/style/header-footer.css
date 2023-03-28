@@ -1,0 +1,58 @@
+/* хедер */
+.header {
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    justify-content: space-between;
+}
+
+.logo-text {
+    font-family: 'Cormorant Upright', serif;
+    color: white;
+    font-size: 38px;
+    text-transform: uppercase;
+}
+
+.ul-with-header {
+    padding-top: 35px;
+}
+
+.ul-with-header-2 {
+    padding-top: 35px;
+}
+
+.ul-with-header li a {
+    font-family: 'Open Sans';
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    padding-left: 40px;
+}
+
+.ul-with-header li a:hover {
+    color: #DCCA87;
+}
+
+.ul-with-header li {
+    display: inline;
+}
+
+/*  */
+.ul-with-header-2 li a {
+    font-family: 'Open Sans';
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    padding-left: 30px;
+    align-content: right;
+}
+
+.ul-with-header-2 li a:hover {
+    color: #DCCA87;
+}
+
+.ul-with-header-2 li {
+    display: inline;
+}
